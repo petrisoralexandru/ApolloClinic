@@ -1,0 +1,23 @@
+{
+  "name": "apolloclinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "input:build": "npx tailwind build -i ./ApolloClinic/wwwroot/css/input.css -o ./ApolloClinic/wwwroot/css/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrisoralexandru/ApolloClinic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petrisoralexandru/ApolloClinic/issues"
+  },
+  "homepage": "https://github.com/petrisoralexandru/ApolloClinic#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
