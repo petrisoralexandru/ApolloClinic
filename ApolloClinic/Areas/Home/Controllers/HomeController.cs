@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ApolloClinic.Controllers
+namespace ApolloClinic.Areas.Home.Controllers
 {
     public class HomeController : Controller
     {
