@@ -5,11 +5,11 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApolloClinic", "ApolloClinic\ApolloClinic.csproj", "{F81EC4FE-CC95-4CD4-BCA6-DE1F676C09D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloClinic.DataAccess", "ApolloClinic.DataAccess\ApolloClinic.DataAccess.csproj", "{424CC8D4-BE07-4FCC-ACAA-66E53539B08D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApolloClinic.DataAccess", "ApolloClinic.DataAccess\ApolloClinic.DataAccess.csproj", "{424CC8D4-BE07-4FCC-ACAA-66E53539B08D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloClinic.Models", "ApolloClinic.Models\ApolloClinic.Models.csproj", "{A8D9D8E4-75C4-4228-B314-F529ED4C6BF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApolloClinic.Models", "ApolloClinic.Models\ApolloClinic.Models.csproj", "{A8D9D8E4-75C4-4228-B314-F529ED4C6BF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApolloClinic.Utility", "ApolloClinic.Utility\ApolloClinic.Utility.csproj", "{A90E8AE5-8516-4758-B94D-CD6A9F983920}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApolloClinic.Utility", "ApolloClinic.Utility\ApolloClinic.Utility.csproj", "{A90E8AE5-8516-4758-B94D-CD6A9F983920}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
