@@ -18,7 +18,7 @@ namespace ApolloClinic.Areas.Main.Controllers
             return View();
         }
 
-        public IActionResult Specialisti()
+        public IActionResult Specialitati()
         {
             return View();
         }
