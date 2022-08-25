@@ -28,6 +28,11 @@ namespace ApolloClinic.Areas.Main.Controllers
             return View();
         }
 
+        public IActionResult Investigatii()
+        {
+            return View();
+        }
+
         public IActionResult Abonamente()
         {
             return View();
