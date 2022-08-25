@@ -2,4 +2,55 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    ViewData["Title"] = "Personal medical";
 }
+
+<section class="relative pt-16 bg-gray-50">
+    <div class="container mx-auto">
+        <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="focus:outline-none text-4xl lg:text-5xl text-center font-tiempos leading-10 text-main-text lg:w-5/12 md:w-9/12 pt-4">Personal medical</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-main-text font-graphik">Acesta este echipa medicală Apollo, gata să te ajute la nevoie.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 mx-auto">
+            <div class="px-2 space-y-8 bg-white rounded-md mb-8" aria-label="Sidebar">
+                <div class="container grid justify-center justify-items-center">
+                    <h2 tabindex="0" class="focus:outline-none text-2xl leading-tight text-main-text font-tiempos py-4 pl-2 text-center">Ai nevoie de mai multe informatii?</h2>
+                    <a asp-area="Main" asp-controller="Home" asp-action="Medici" class="items-center px-3 py-4 border border-transparent text-md leading-4 font-medium rounded-md text-white font-graphik bg-blue-400 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        <i class="fa-solid fa-address-card"></i>&nbsp; Contactează-ne
+                    </a>
+                </div>
+            </div>
+
+
+
+            <div class="w-full px-4">
+                <div class="flex ">
+                    <div class="w-full px-4">
+                        <div class="relative flex flex-col">
+                            <div class="px-4 py-5 flex-auto bg-white rounded-md mb-8">
+                                <div class="container flex flex-row mx-auto text-center">
+                                    <img class="h-16 w-16 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                  
+                                    <div>
+                                        <h6 class="text-xl font-tiempos text-main-text pl-4 text-blue">Prof. Dr. Radu Prejbeanu</h6>
+                                        <p class="text-main-text font-graphik text-sm">Director medical Spital Cluj</p>
+                                    </div>
+                                </div>
+                                <p class="mt-8 text-blue font-graphik">
+                                    <a asp-area="Main" asp-controller="Home" asp-action="Medici" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white font-graphik bg-blue-400 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                        <i class="fa-solid fa-calendar-day"></i>&nbsp; Solicită programare
+                                    </a>
+                                    <a asp-area="Main" asp-controller="Home" asp-action="Medici" class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white font-graphik bg-blue-400 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                        <i class="fa-regular fa-clock"></i>&nbsp; Vezi program lucru
+                                    </a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
