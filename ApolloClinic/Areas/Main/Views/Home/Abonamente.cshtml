@@ -2,4 +2,138 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    ViewData["Title"] = "Abonamente";
 }
+
+<section class="relative pt-16 bg-gray-50">
+    <div class="container mx-auto">
+        <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+            <h1 class="focus:outline-none text-4xl lg:text-5xl text-center font-tiempos leading-10 text-main-text lg:w-5/12 md:w-9/12 pt-4">Abonamente</h1>
+            <p class="lg:w-1/2 w-full leading-relaxed text-main-text font-graphik">Sanatatea ta, a celor dragi tie, a colegilor si angajatilor tai este misiunea noastra. Pune sanatatea pe primul loc si descopera avantajele de a fi abonat la clinica Apollo!</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+                <div class="max-w-md mx-auto space-y-4 lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
+                    <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                        <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+                            <div>
+                                <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-blue-500 text-white font-graphik" id="tier-standard">Standard</h3>
+                            </div>
+                            <div class="mt-4 flex items-baseline text-6xl text-main-text font-graphik">
+                                75 RON
+                                <span class="ml-1 text-2xl text-main-text font-graphik"> /lună </span>
+                            </div>
+                            <p class="mt-5 text-lg text-main-text font-graphik">Pachetul Standard îti oferă baza preventiei și sanătătii pe termen lung.</p>
+                        </div>
+                        <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
+                            <ul role="list" class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-main-text font-graphik">3 consultatii de medicină generală și internă</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-main-text font-graphik">Set anual de analize gratuit făra recomandarea unui medic</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-main-text font-graphik">3 consultatii si controale la peste 20 de specialitati medicale si 30% discount dupa consumul consultatiilor incluse in abonament</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-main-text font-graphik">Hotline medical 24/7</p>
+                                </li>
+                            </ul>
+                            <div class="rounded-md shadow">
+                                <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base rounded-md text-white font-graphik bg-blue hover:bg-blue-600" aria-describedby="tier-standard"> Vezi mai multe detalii </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                        <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
+                            <div>
+                                <h3 class="inline-flex px-4 py-1 rounded-full text-sm font-semibold tracking-wide uppercase bg-blue-500 text-white font-graphik" id="tier-standard">Today Care</h3>
+                            </div>
+                            <div class="mt-4 flex items-baseline text-6xl text-main-text font-graphik">
+                                180 RON
+                                <span class="ml-1 text-2xl text-main-text font-graphik"> /lună </span>
+                            </div>
+                            <p class="mt-5 text-lg text-main-text font-graphik">Pachetul "Today Care" include consultatii nelimitate de medicină generala, internă.</p>
+                        </div>
+                        <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
+                            <ul role="list" class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-main-text font-graphik">Consultatii nelimitate de medicină generală și interna</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-main-text font-graphik">Set anual de analize gratuit fără recomandarea unui medic</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-main-text font-graphik">Consultatii și controale nelimitate la peste 20 de specialitati medicale</p>
+                                </li>
+
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0">
+                                        <!-- Heroicon name: outline/check -->
+                                        <svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                        </svg>
+                                    </div>
+                                    <p class="ml-3 text-main-text font-graphik">Hotline medical 24/7</p>
+                                </li>
+                            </ul>
+                            <div class="rounded-md shadow">
+                                <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base rounded-md text-white font-graphik bg-blue hover:bg-blue-600" aria-describedby="tier-standard"> Vezi mai multe detalii </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+</section>
