@@ -10,7 +10,9 @@
         <div class="w-full lg:w-1/2 h-full mt-8 lg:mt-0">
             <h1 class="font-bold font-tiempos text-white text-3xl md:text-7xl mb-8">Ai grijă de sănătatea ta.</h1>
             <p class="text-white font-graphik text-lg font-regular mb-8">Programează-te pentru setul anual de analize la doar 150 RON prin abonamentul "Today Care". Setul de analize uzuale este conceput astfel încat să evalueze principalele funcții ale organismului. Fiecare test în parte aduce informații despre mai multe organe și activitatea acestora.</p>
-            <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-blue bg-white hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-secondary font-graphik">Vezi mai multe detalii</button>
+            <a class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-blue bg-white hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:bg-secondary font-graphik" asp-area="Main" asp-controller="Home" asp-action="Abonamente">
+                Vezi mai multe detalii
+            </a>
         </div>
     </div>
 </div>
@@ -103,7 +105,9 @@
             </div>
 
         </div>
-        <button class="flex mx-auto mt-16 text-white font-graphik bg-blue border-0 px-4 py-2 focus:outline-none hover:bg-blue-500 rounded-md text-md">Vizualizează restul serviciilor</button>
+        <a class="flex mx-auto mt-16 text-white font-graphik bg-blue border-0 px-4 py-2 w-64 justify-center focus:outline-none hover:bg-blue-500 rounded-md text-md" asp-area="Main" asp-controller="Home" asp-action="Investigatii">
+            Vizualizează restul serviciilor
+        </a>
     </div>
 </section>
 
@@ -127,10 +131,11 @@
                     </div>
                 </li>
 
-                <!-- More people... -->
             </ul>
         </div>
-        <button class="flex mx-auto mt-16 text-white font-graphik bg-blue border-0 px-4 py-2 focus:outline-none hover:bg-blue-500 rounded-md text-md">Vizualizează restul personalului</button>
+        <a class="flex mx-auto mt-16 text-white font-graphik bg-blue border-0 px-4 py-2 w-72 justify-center focus:outline-none hover:bg-blue-500 rounded-md text-md" asp-area="Main" asp-controller="Home" asp-action="Medici">
+            Vizualizează restul personalului
+        </a>
 
     </div>
 </div>
@@ -204,7 +209,9 @@
                                 </li>
                             </ul>
                             <div class="rounded-md shadow">
-                                <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base rounded-md text-white font-graphik bg-blue hover:bg-blue-600" aria-describedby="tier-standard"> Vezi mai multe detalii </a>
+                                <a class="flex items-center justify-center px-5 py-3 border border-transparent text-base rounded-md text-white font-graphik bg-blue hover:bg-blue-600" aria-describedby="tier-standard" asp-area="Main" asp-controller="Home" asp-action="Abonamente">
+                                    Vezi mai multe detalii
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -263,7 +270,9 @@
                                 </li>
                             </ul>
                             <div class="rounded-md shadow">
-                                <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base rounded-md text-white font-graphik bg-blue hover:bg-blue-600" aria-describedby="tier-standard"> Vezi mai multe detalii </a>
+                                <a class="flex items-center justify-center px-5 py-3 border border-transparent text-base rounded-md text-white font-graphik bg-blue hover:bg-blue-600" aria-describedby="tier-standard" asp-area="Main" asp-controller="Home" asp-action="Abonamente">
+                                     Vezi mai multe detalii
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -276,14 +285,14 @@
 <section class="max-w-8xl pt-16 mx-auto container bg-white">
     <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/2 px-4 md:px-2 lg:px-12 py-10 flex items-center">
-            <img class="rounded" src="images/banner-aplicatie.jpeg" alt="Two Developer Girls writing code" role="img" />
+            <img class="rounded" src="images/banner-aplicatie.jpeg" alt="Reclamă aplicație Apollo Clinic" role="img" />
         </div>
         <div class="flex flex-col justify-center w-full md:w-1/2 px-4 xl:pr-12">
             <div class="pl-4">
                 <h3 role="heading" class="text-xl xl:text-4xl lg:text-3xl md:text-2xl leading-tight text-main-text font-tiempos">Descarcă aplicatia mobilă</h3>
                 <div class="flex flex-row w-full pt-4">
-                    <img src="/images/Google-Play-ro.svg" alt="A blonde girl smiling" role="img" />
-                    <img src="/images/App-Store-ro.svg" class="ml-3" alt="A blonde girl smiling" role="img" />
+                    <a href="https://play.google.com/store/apps" target="_blank"><img src="/images/Google-Play-ro.svg" alt="Google Play Logo" role="img" /></a>
+                    <a href="https://apps.apple.com/us/app/" target="_blank"><img src="/images/App-Store-ro.svg" class="ml-3" alt="Apple Logo" role="img" /></a>
                 </div>
             </div>
         </div>
